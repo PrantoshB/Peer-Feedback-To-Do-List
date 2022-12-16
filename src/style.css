@@ -1,0 +1,126 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(244, 244, 244);
+}
+
+.todo-list {
+  box-shadow: 0 4px 4px 4px rgba(216, 216, 216, 0.762);
+  border: 0.2px solid rgba(216, 216, 216, 0.762);
+  width: 70vw;
+  background: white;
+  margin-top: 10vh;
+}
+
+h3 {
+  padding: 3% 0;
+  font-size: 1.2rem;
+  margin: 0;
+  color: rgb(119, 119, 119);
+  font-weight: 600;
+  width: 90.1%;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-to-list {
+  outline: none;
+  width: 90%;
+  border: none;
+  background: none;
+  font-style: italic;
+  font-size: 1.2rem;
+  padding: 2% 0;
+}
+
+hr {
+  border: 0.5px solid rgba(222, 222, 222, 0.762);
+  margin: 0;
+}
+
+.inputcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#refresh,
+#removeicon,
+.material-icons {
+  color: gray;
+  font-size: 1.2rem;
+  margin-right: 3%;
+  cursor: pointer;
+}
+
+.save,
+.edit {
+  margin-right: 1%;
+  color: rgb(34, 45, 79);
+}
+
+button,
+input[type=checkbox] {
+  cursor: pointer;
+}
+
+.titleholder {
+  display: flex;
+  align-items: center;
+}
+
+.clear-all {
+  width: 100%;
+  margin: 0;
+  padding: 3%;
+  text-align: center;
+  background: rgba(239, 239, 239, 0.887);
+  border: none;
+  color: rgb(97, 97, 97);
+  font-size: 1rem;
+}
+
+.clear-all:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+h3,
+input {
+  margin-left: 4% !important;
+}
+
+.mainlist {
+  padding: 1% 0;
+  border-bottom: 0.5px solid rgba(207, 207, 207, 0.762);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+input.check {
+  width: 1rem;
+  height: 1rem;
+}
+
+.listitem {
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.save {
+  display: none;
+}
